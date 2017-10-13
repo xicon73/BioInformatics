@@ -8,3 +8,7 @@ def readFasta(file):
         else: Seq+=line
     f.close()
     return(id,Seq)
+
+
+def generateRandonSeq2():
+    
